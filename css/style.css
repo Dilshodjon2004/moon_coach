@@ -387,6 +387,10 @@ footer {
   .newsletter {
     width: 50%;
   }
+  .footer-header p {
+    font-size: 20px;
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 1220px) {
   .about-info__wrapper img {
@@ -437,6 +441,27 @@ footer {
   }
   .newsletter .section-name {
     font-size: 30px;
+  }
+  .footer-items__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-header {
+    width: 100%;
+  }
+  .footer-nav__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .icons {
+    text-align: center;
+  }
+  .footer-nav__items {
+    column-gap: 50px;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 950px) {
@@ -500,6 +525,14 @@ footer {
   .info-items__wrapper .descr {
     width: 90%;
   }
+  .footer-header p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .footer-nav__item h4,
+  .footer-nav__item p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -544,6 +577,22 @@ footer {
   }
 }
 
+@media only screen and (max-width: 530px) {
+  .footer-nav__item h4,
+  .footer-nav__item p {
+    font-size: 12px;
+  }
+  .footer-nav__items {
+    column-gap: 20px;
+  }
+  .owner {
+    font-size: 10px;
+  }
+  .owner img {
+    scale: 0.8;
+    margin: 0;
+  }
+}
 @media only screen and (max-width: 500px) {
   .hero-items__wrapper h1 {
     font-size: 30px;
@@ -560,6 +609,9 @@ footer {
   .newsletter {
     width: 90%;
   }
+  .icons img {
+    transform: scale(0.8);
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -572,6 +624,18 @@ footer {
   }
   .newletter-items__wrapper img {
     transform: scale(0.8);
+  }
+  .footer-header p {
+    font-size: 14px;
+  }
+  .owner {
+    width: 100%;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .owner img {
+    transform: scale(0.7);
+    margin: 0 0;
   }
 }
 
@@ -592,5 +656,9 @@ footer {
   }
   .newletter-items__wrapper img {
     transform: scale(0.65);
+  }
+  .footer-nav__item h4,
+  .footer-nav__item p {
+    font-size: 10px;
   }
 }
